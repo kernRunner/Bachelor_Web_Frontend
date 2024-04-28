@@ -1,0 +1,182 @@
+[
+    {
+        "Id": 0,
+        "Name": "Northland",
+        "HeaderText": "Embark on a captivating journey through Northland, where pristine beaches, ancient forests, and vibrant Maori culture converge, leaving visitors spellbound by its natural wonders and cultural heritage.",
+        "Description": "Northland, located in the northernmost part of New Zealand's North Island, is a region teeming with breathtaking landscapes, including stunning coastlines, lush forests, and a deep-rooted Maori history. Experience the magic of this captivating region.",
+        "Title": "Where Nature and History Unite",
+        "Lat": -35.48082257287037,
+        "Lng": 173.81013190116516,
+        "Key": "northland",
+        "Img": "Northland.jpg"
+      },
+      {
+        "Id": 1,
+        "Name": "Auckland",
+        "HeaderText": "Immerse yourself in the dynamic energy of Auckland, where urban sophistication meets natural wonders. From iconic landmarks and bustling markets to pristine beaches and lush volcanic landscapes, Auckland invites you to experience its captivating blend of culture and nature.",
+        "Description": "The Auckland Region, nestled in the North Island of New Zealand, is a vibrant and diverse destination. From the iconic Sky Tower and bustling waterfront to beautiful beaches and lush rainforests, Auckland offers a unique blend of urban delights and natural beauty.",
+        "Title": "Discover the Vibrant Heart of New Zealand",
+        "Lat": -36.84500011965619,
+        "Lng": 174.7589428775431,
+        "Key": "auckland",
+        "Img": "Auckland.jpg"
+      },
+      {
+        "Id": 2,
+        "Name": "Waikato",
+        "HeaderText": "Immerse yourself in the enchanting beauty of Waikato, where rolling green pastures, majestic waterfalls, and rich Maori traditions converge. From the iconic Hobbiton Movie Set to the breathtaking Waitomo Caves, Waikato invites you to explore its captivating landscapes and immerse yourself in its cultural tapestry.",
+        "Description": "Waikato, located in the central North Island of New Zealand, is a region renowned for its picturesque landscapes, including lush farmland, ancient forests, and underground wonders. Immerse yourself in its rich cultural heritage and discover the natural beauty that defines this heartland.",
+        "Title": "New Zealand's Natural and Cultural Heartland",
+        "Lat": -37.86257263283706,
+        "Lng": 175.45335022951883,
+        "Key": "waikato",
+        "Img": "Waikato.jpg"
+      },
+      {
+        "Id": 3,
+        "Name": "Bay of Plenty",
+        "HeaderText": "Immerse yourself in the abundant beauty and thrilling adventures of Bay of Plenty. From pristine beaches and captivating marine life to exhilarating outdoor activities and vibrant cultural experiences, Bay of Plenty beckons you to explore its bountiful wonders.",
+        "Description": "The Bay of Plenty, located on the northeastern coast of New Zealand's North Island, is a region known for its stunning beaches, abundant sunshine, and diverse outdoor adventures. Experience the perfect blend of natural beauty, adrenaline-pumping activities, and warm hospitality in this captivating destination.",
+        "Title": "Where Nature and Adventure Flourish",
+        "Lat": -38.02788976170741,
+        "Lng": 176.74170121160415,
+        "Key": "bay-of-plenty",
+        "Img": "BayOfPlenty.jpg"
+      },
+      {
+        "Id": 4,
+        "Name": "Gisborne",
+        "HeaderText": "Immerse yourself in Gisborne's sun-kissed beaches, legendary surf breaks, and rich Maori heritage for an unforgettable New Zealand adventure.",
+        "Description": "Gisborne, located on the eastern coast of New Zealand's North Island, is a vibrant destination known for its golden beaches, world-class surf, and strong connection to Maori culture. Discover the perfect blend of outdoor thrills, cultural experiences, and laid-back charm in Gisborne.",
+        "Title": "Where Sun, Surf, and Maori Culture Embrace",
+        "Lat": -38.287043479114004,
+        "Lng": 177.95312045765257,
+        "Key": "gisborne",
+        "Img": "Gisborne.jpg"
+      },
+      {
+        "Id": 5,
+        "Name": "Hawke's Bay",
+        "HeaderText": "Indulge in Hawke's Bay's vineyards, art deco architecture, and pristine beaches, where nature, wine, and art create an unforgettable experience.",
+        "Description": "Hawke's Bay, located on the eastern coast of New Zealand's North Island, is a region renowned for its award-winning wineries, stunning natural landscapes, and rich cultural heritage. Discover the perfect blend of gourmet delights, artistic flair, and outdoor adventures in this captivating destination.",
+        "Title": "Where Nature, Wine, and Artistry Converge",
+        "Lat": -39.29390295548327,
+        "Lng": 176.63199113785635,
+        "Key": "hawkesbay",
+        "Img": "Hawkesbay.jpg",
+        "source": "https://unsplash.com/de/fotos/ein-seelowe-der-sich-auf-einem-felsen-in-der-sonne-ausruht-ley-WE8INT4"
+
+      },
+      {
+        "Id": 6,
+        "Name": "Taranaki",
+        "HeaderText": "Experience the breathtaking beauty of Taranaki, where majestic Mount Taranaki, outdoor adventures, and vibrant Maori traditions create an unforgettable journey.",
+        "Description": "Taranaki, situated on the western coast of New Zealand's North Island, is a region known for its stunning landscapes, including the iconic Mount Taranaki, outdoor activities, and rich Maori cultural heritage. Discover a perfect fusion of natural wonders, thrilling adventures, and cultural experiences in Taranaki.",
+        "Title": "Where Nature's Majesty Meets Adventure and Maori Culture",
+        "Lat": -39.303358832078615,
+        "Lng": 174.29624066880137,
+        "Key": "taranaki",
+        "Img": "Taranaki.jpg"
+      },
+      {
+        "Id": 7,
+        "Name": "Manawatū-Whanganui",
+        "HeaderText": "Immerse yourself in the captivating landscapes, rich heritage, and thrilling adventures of Manawatū-Whanganui, for an unforgettable New Zealand experience.",
+        "Description": "Manawatū-Whanganui, located in the lower North Island of New Zealand, is a region renowned for its diverse natural beauty, vibrant cultural heritage, and exhilarating outdoor activities. Explore the perfect blend of stunning landscapes, historic towns, and adrenaline-pumping adventures in Manawatū-Whanganui.",
+        "Title": "Where Natural Beauty, Heritage, and Adventure Unite",
+        "Lat": -39.75197334119995,
+        "Lng": 175.5743035958141,
+        "Key": "manawatu-Wanganui",
+        "Img": "Manawatu-Wanganui.jpg"
+      },
+      {
+        "Id": 8,
+        "Name": "Wellington",
+        "HeaderText": "Immerse yourself in the vibrant capital city of New Zealand, Wellington, where captivating culture, stunning natural landscapes, and artistic expression await.",
+        "Description": "Wellington, the capital city of New Zealand, is a dynamic and diverse destination known for its thriving arts scene, picturesque harbor, and rich Maori and colonial heritage. Discover a perfect fusion of urban excitement, natural beauty, and creative spirit in Wellington.",
+        "Title": "Where Culture, Nature, and Creativity Flourish",
+        "Lat": -41.07367609065048,
+        "Lng": 175.4949883162057,
+        "Key": "wellington",
+        "Img": "Wellington.jpg"
+      },
+      {
+        "Id": 9,
+        "Name": "Tasman",
+        "HeaderText": "Immerse yourself in the breathtaking landscapes, pristine beaches, and peaceful tranquility of Tasman District, a haven for nature lovers and those seeking a respite from the everyday hustle.",
+        "Description": "Tasman District, located at the top of New Zealand's South Island, is a picturesque region renowned for its stunning national parks, golden beaches, and a sense of serenity. Discover a perfect harmony of outdoor adventures, scenic beauty, and a laid-back atmosphere in Tasman District.",
+        "Title": "Where Natural Wonders Unfold and Serenity Beckons",
+        "Lat": -41.5551292830572,
+        "Lng": 172.71385083466305,
+        "Key": "tasman",
+        "Img": "Tasman.jpg"
+      },
+      {
+        "Id": 10,
+        "Name": "Nelson",
+        "HeaderText": "Immerse yourself in the stunning landscapes, vibrant arts scene, and tranquil ambiance of Nelson, a place where nature and creativity intertwine.",
+        "Description": "Nelson, located on the northern tip of New Zealand's South Island, is a picturesque region known for its breathtaking natural beauty, thriving arts community, and laid-back charm. Experience a harmonious blend of outdoor adventures, artistic inspiration, and a sense of serenity in Nelson.",
+        "Title": "Where Nature's Beauty Inspires Art, Adventure, and Serenity",
+        "Lat": -41.236731868941334,
+        "Lng": 173.36572883639678,
+        "Key": "nelson",
+        "Img": "Nelson.jpg",
+        "source": "https://unsplash.com/de/fotos/luftaufnahmen-des-berges-neben-dem-blauen-ozean-LXIgKpvF-ik"
+      },
+      {
+        "Id": 11,
+        "Name": "Marlborough",
+        "HeaderText": "Embark on a journey of natural wonders, world-class wines, and coastal beauty in Marlborough, a region that captivates with its stunning landscapes, flavorful vineyards, and picturesque coastline.",
+        "Description": "Marlborough, located in the northeastern part of New Zealand's South Island, is renowned for its breathtaking natural landscapes, award-winning wineries, and pristine coastline. Immerse yourself in the beauty of Marlborough, where nature, wine, and coastal charm create an unforgettable experience.",
+        "Title": "Where Nature, Wine, and Coastal Beauty Unite",
+        "Lat": -41.64575662745575,
+        "Lng": 173.55552091719662,
+        "Key": "marlborough",
+        "Img": "Marlborough.jpg",
+        "source": "https://unsplash.com/de/fotos/grunes-grasfeld-in-der-nahe-von-gewassern-tagsuber-jNpWZGc6sUk"
+      },
+      {
+        "Id": 12,
+        "Name": "West Coast",
+        "HeaderText": "Embark on a captivating adventure through the rugged wilderness and captivating landscapes of West Coast Region, where nature's grandeur and untamed beauty take center stage.",
+        "Description": "West Coast Region, located on the western side of New Zealand's South Island, is a breathtaking destination renowned for its pristine national parks, glacier-carved landscapes, and a rich gold mining heritage. Experience the raw and untamed beauty of the West Coast's wilderness and discover a land of stunning contrasts.",
+        "Title": "Where Untamed Wilderness and Enchanting Landscapes Beckon",
+        "Lat": -43.20802181758391,
+        "Lng": 170.3713590324959,
+        "Key": "west-coast",
+        "Img": "WestCoast.jpg"
+      },
+      {
+        "Id": 13,
+        "Name": "Canterbury",
+        "HeaderText": "Embark on a captivating journey through Canterbury, where stunning landscapes, rich cultural heritage, and warm hospitality combine to create an unforgettable experience for every traveler.",
+        "Description": "Canterbury, situated in the central-eastern part of New Zealand's South Island, is a region renowned for its breathtaking natural beauty, including the majestic Southern Alps, pristine lakes, and picturesque coastal areas. Discover a blend of outdoor adventures, cultural treasures, and welcoming communities in Canterbury.",
+        "Title": "Where Nature's Majesty Meets Cultural Heritage",
+        "Lat": -43.41747131714939,
+        "Lng": 171.90541481500227,
+        "Key": "canterbury",
+        "Img": "Canterbury.jpg"
+      },
+      {
+        "Id": 14,
+        "Name": "Otago",
+        "HeaderText": "Ready to embark on an unforgettable adventure in Otago? Discover the untamed beauty of this remarkable region and create memories that will last a lifetime.",
+        "Description": "Welcome to Otago, a captivating region located in the South Island of New Zealand. Renowned for its breathtaking landscapes, rich history, and thrilling outdoor activities, Otago offers an unforgettable experience for every traveler.",
+        "Title": "Where nature meets Adventure",
+        "Lat": -45.14678944168363,
+        "Lng": 169.5175812312236,
+        "Key": "otago",
+        "Img": "Otago.jpg"
+      },
+      {
+        "Id": 15,
+        "Name": "Southland",
+        "HeaderText": "Experience the magic of Southland! Discover stunning landscapes, rich culture, and thrilling adventures. Plan your journey now and unlock the extraordinary beauty of this captivating region!",
+        "Description": "Welcome to Southland, a region of awe-inspiring landscapes, rich cultural heritage, and thrilling adventures. Situated in the southern part of New Zealand, Southland invites you to delve into its captivating wonders, from pristine fjords to vibrant wildlife, promising an unforgettable experience for every traveler.",
+        "Title": "Where Nature's Beauty Knows No Bounds",
+        "Lat": -45.54916394645109,
+        "Lng": 167.72478306490785,
+        "Key": "southland",
+        "Img": "Southland.jpg"
+      }
+]

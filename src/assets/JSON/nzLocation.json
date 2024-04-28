@@ -1,0 +1,172 @@
+[
+
+    {
+      "id": 1,
+      "Name": "Perth",
+      "Lat": -31.505,
+      "Lng": 115.605,
+      "Description": "The capital city is known for its beautiful beaches, vibrant nightlife, and cultural attractions. Backpackers can explore Kings Park, visit Fremantle, and relax on Cottesloe Beach.",
+      "Img": "perth.jpg",
+      "Key": "northland"
+    },
+    {
+      "id": 2,
+      "Name": "Margaret River",
+      "Lat": -33.535,
+      "Lng": 115.739,
+      "Description": "Famous for its wineries, surf breaks, and stunning landscapes, Margaret River is a backpacker's paradise. Enjoy wine tastings, explore caves, and relax on pristine beaches.",
+      "Img": "margaret_river.jpg",
+      "Key": "auckland"
+    },
+    {
+      "id": 3,
+      "Name": "Broome",
+      "Lat": -17.614,
+      "Lng": 122.359,
+      "Description": "Located in the Kimberley region, Broome is known for its Cable Beach, camel rides, and unique pearling history. Backpackers can experience the vibrant sunset at Cable Beach and explore the town's cultural attractions.",
+      "Img": "broome.jpg",
+      "Key": "waikato"
+    },
+    {
+      "id": 4,
+      "Name": "Exmouth",
+      "Lat": -21.307,
+      "Lng": 114.225,
+      "Description": "A gateway to the Ningaloo Reef, Exmouth is perfect for snorkeling and diving. Backpackers can swim with whale sharks, explore the Cape Range National Park, and relax on Turquoise Bay.",
+      "Img": "exmouth.jpg",
+      "Key": "ay-of-plenty"
+    },
+    {
+      "id": 5,
+      "Name": "Albany",
+      "Lat": -35.248,
+      "Lng": 117.839,
+      "Description": "Located on the southern coast, Albany is known for its natural beauty, historical sites, and rugged landscapes. Backpackers can visit The Gap, Natural Bridge, and the stunning beaches of Two Peoples Bay.",
+      "Img": "albany.jpg",
+      "Key": "gisborne"
+    },
+    {
+      "id": 6,
+      "Name": "Kalbarri National Park",
+      "Lat": -27.088,
+      "Lng": 114.596,
+      "Description": "Famous for its scenic gorges, rock formations, and coastal landscapes, Kalbarri National Park is a great destination for hiking and adventure. The iconic Nature's Window is a must-visit.",
+      "Img": "kalbarri_national_park.jpg",
+      "Key": "hawkesbay"
+    },
+    {
+      "id": 7,
+      "Name": "Denmark",
+      "Lat": -35.608,
+      "Lng": 117.566,
+      "Description": "Nestled in the southern forests, Denmark offers a peaceful retreat with lush landscapes, wineries, and beautiful beaches. Backpackers can explore the Valley of the Giants and Greens Pool.",
+      "Img": "denmark.jpg",
+      "Key": "taranaki"
+    },
+    {
+      "id": 8,
+      "Name": "Monkey Mia",
+      "Lat": -25.902,
+      "Lng": 113.214,
+      "Description": "Known for its wild dolphin encounters, Monkey Mia is a popular destination on the Coral Coast. Backpackers can relax on the beach and witness dolphins coming close to the shore.",
+      "Img": "monkey_mia.jpg",
+      "Key": "manawatu-Wanganui"
+    },
+    {
+      "id": 9,
+      "Name": "Pinnacles Desert",
+      "Lat": -25.776,
+      "Lng": 115.857,
+      "Description": "Located in Nambung National Park, the Pinnacles Desert features unique limestone formations. Backpackers can explore the desert, take photographs, and enjoy the otherworldly landscapes.",
+      "Img": "pinnacles_desert.jpg",
+      "Key": "wellington"
+    },
+    {
+      "id": 10,
+      "Name": "Coral Bay and Ningaloo Reef",
+      "Lat": -23.410,
+      "Lng": 113.714,
+      "Description": "Coral Bay is a small coastal town near the Ningaloo Reef, offering pristine beaches and vibrant marine life. Ningaloo Reef is famous for snorkeling and swimming with whale sharks.",
+      "Img": "coral_bay_ningaloo.jpg",
+      "Key": "tasman"
+    },
+    {
+      "id": 11,
+      "Name": "Esperance",
+      "Lat": -33.588,
+      "Lng": 121.916,
+      "Description": "Known for its stunning white-sand beaches and turquoise waters, Esperance is a paradise for nature lovers. Backpackers can explore Cape Le Grand National Park and Lucky Bay.",
+      "Img": "esperance.jpg",
+      "Key": "nelson"
+    },
+    {
+      "id": 12,
+      "Name": "Wave Rock",
+      "Lat": -32.408,
+      "Lng": 118.925,
+      "Description": "A natural rock formation shaped like a large wave, located near Hyden. It's a unique geological feature and a popular attraction in Western Australia.",
+      "Img": "wave_rock.jpg",
+      "Key": "marlborough"
+    },
+    {
+      "id": 13,
+      "Name": "Adelaide",
+      "Lat": -34.285,
+      "Lng": 138.007,
+      "Description": "Adelaide, the capital city of South Australia, is known for its laid-back atmosphere, beautiful parks, and cultural events. Explore the Central Market, enjoy festivals, and soak in the city's vibrant arts scene.",
+      "Img": "adelaide.jpg",
+      "Key": "west-coast",
+      "Ref": "https://unsplash.com/de/fotos/YOUR_ADELAIDE_REF"
+    },
+    {
+      "id": 14,
+      "Name": "Kangaroo Island",
+      "Lat": -35.753,
+      "Lng": 137.226,
+      "Description": "Kangaroo Island, located off the coast of South Australia, is a natural wonderland with pristine beaches, diverse wildlife, and unique landscapes. Encounter kangaroos, sea lions, and stunning coastal scenery.",
+      "Img": "kangaroo_island.jpg",
+      "Key": "canterbury",
+      "Ref": "https://unsplash.com/de/fotos/YOUR_KANGAROO_ISLAND_REF"
+    },
+    {
+      "id": 15,
+      "Name": "Barossa Valley",
+      "Lat": -34.308,
+      "Lng": 139.503,
+      "Description": "The Barossa Valley is a world-renowned wine region, famous for its vineyards and wineries. It offers a picturesque countryside, wine tastings, and a rich culinary experience.",
+      "Img": "barossa_valley.jpg",
+      "Key": "otago",
+      "Ref": "https://unsplash.com/de/fotos/YOUR_BAROSSA_VALLEY_REF"
+    },
+    {
+      "id": 16,
+      "Name": "Flinders Ranges",
+      "Lat": -31.386,
+      "Lng": 138.930,
+      "Description": "The Flinders Ranges is a rugged mountain range showcasing dramatic landscapes, deep gorges, and unique rock formations. Wilpena Pound, a natural amphitheater, is a highlight for hikers and nature lovers.",
+      "Img": "flinders_ranges.jpg",
+      "Key": "southland",
+      "Ref": "https://unsplash.com/de/fotos/YOUR_FLINDERS_RANGES_REF"
+    },
+    {
+      "id": 17,
+      "Name": "Coober Pedy",
+      "Lat": -29.110,
+      "Lng": 134.546,
+      "Description": "Coober Pedy, known as the Opal Capital of the World, is a quirky underground town. Explore opal mines, visit underground homes, and experience the unusual charm of this outback settlement.",
+      "Img": "coober_pedy.jpg",
+      "Key": "southland",
+      "Ref": "https://unsplash.com/de/fotos/YOUR_COOBER_PEDY_REF"
+    },
+  
+    {
+      "id": 18,
+      "Name": "Uluru-Kata Tjuta National Park",
+      "Lat": -25.444,
+      "Lng": 130.369,
+      "Description": "Home to the famous Uluru (Ayers Rock) and Kata Tjuta (The Olgas), this national park offers stunning red rock formations, Aboriginal cultural experiences, and beautiful sunsets.",
+      "Img": "uluru_kata_tjuta.jpg",
+      "Key": "southland",
+      "Ref": "https://unsplash.com/de/fotos/YOUR_ULURU_KATA_TJUTA_REF"
+    }
+]    

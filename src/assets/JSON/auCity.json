@@ -1,0 +1,46 @@
+[
+    {
+        "Id": 0,
+        "Name": "Sydney",
+        "Title": "Discover the Vibrant Heart of Australia",
+        "HeaderText":  "Embark on a captivating journey through Northland, where pristine beaches, ancient forests, and vibrant Maori culture converge, leaving visitors spellbound by its natural wonders and cultural heritage.",  
+        "Lat": -33.8651,
+        "Lng": 151.2099,
+        "Description": "Sydney is Australia's largest and most iconic city, famous for its stunning harbor, which is home to the iconic Sydney Opera House and Sydney Harbour Bridge. This vibrant metropolis blends natural beauty with urban sophistication, offering a diverse cultural scene, beautiful beaches, and a wide range of activities for visitors to enjoy. With its mix of historic charm and modern marvels, Sydney is a city that appeals to both culture enthusiasts and outdoor adventurers.",
+        "Img": "sydney.png",
+        "Key": "sydney"
+      },
+      {
+        "Id": 1,
+        "Name": "Melbourne",
+        "Title": "Discover the Vibrant Heart of Australia",
+        "HeaderText":  "Embark on a captivating journey through Northland, where pristine beaches, ancient forests, and vibrant Maori culture converge, leaving visitors spellbound by its natural wonders and cultural heritage.",  
+        "Lat": -37.8136,
+        "Lng": 144.9631,
+        "Description": "Melbourne, Australia's cultural hub, is a dynamic and diverse city known for its thriving arts, culinary scene, and unique laneways filled with street art. It's a city where history meets creativity, and it's a popular destination for those seeking a taste of Australia's urban culture.",
+        "Img": "melbourne.jpg",
+        "Key": "melbourne"
+      },
+      {
+        "Id": 2,
+        "Name": "Brisbane",
+        "Title": "Discover the Vibrant Heart of Australia",
+        "HeaderText":  "Embark on a captivating journey through Northland, where pristine beaches, ancient forests, and vibrant Maori culture converge, leaving visitors spellbound by its natural wonders and cultural heritage.",  
+        "Lat": -27.4698,
+        "Lng": 153.0251,
+        "Description": "Brisbane, Australia's subtropical capital, is a vibrant and outdoorsy city known for its sunny climate, riverfront parks, and a laid-back atmosphere. With a variety of outdoor activities, cultural events, and a friendly local vibe, Brisbane is a perfect destination for those who want to experience the best of Queensland's lifestyle.",
+        "Img": "brisbane.jpg",
+        "Key": "brisbane"
+      },
+      {
+        "Id": 2,
+        "Name": "Gold Coast",
+        "Title": "Discover the Vibrant Heart of Australia",
+        "HeaderText":  "Embark on a captivating journey through Northland, where pristine beaches, ancient forests, and vibrant Maori culture converge, leaving visitors spellbound by its natural wonders and cultural heritage.",  
+        "Lat": -27.4698,
+        "Lng": 153.0251,
+        "Description": "Brisbane, Australia's subtropical capital, is a vibrant and outdoorsy city known for its sunny climate, riverfront parks, and a laid-back atmosphere. With a variety of outdoor activities, cultural events, and a friendly local vibe, Brisbane is a perfect destination for those who want to experience the best of Queensland's lifestyle.",
+        "Img": "goldcoast.png",
+        "Key": "goldcoast"
+      }
+]

@@ -1,0 +1,109 @@
+{
+    "id": 10,
+    "Name": "Sydney",
+    "Lat": -33.8651,
+    "Lng": 151.2099,
+    "Description": "Sydney is Australia's largest city, famous for its iconic landmarks like the Sydney Opera House.",
+    "Img": "sydney.jpeg",
+    "Key": "newsouthwales",
+    "Ref": ""
+  },
+
+  {
+    "id": 11,
+    "Name": "Blue Mountains National Park",
+    "Lat": -33.7318,
+    "Lng": 150.3121,
+    "Description": "Blue Mountains National Park offers stunning scenery and hiking opportunities.",
+    "Img": "blue_mountains_national_park.jpeg",
+    "Key": "newsouthwales",
+    "Ref": ""
+  },
+
+  {
+    "id": 12,
+    "Name": "Byron Bay",
+    "Lat": -28.6474,
+    "Lng": 153.6010,
+    "Description": "Byron Bay is a coastal town known for its relaxed vibe and beautiful beaches.",
+    "Img": "byron_bay.jpg",
+    "Key": "newsouthwales",
+    "Ref": "https://unsplash.com/de/fotos/7DgLMKBJmdo"
+  },
+
+  {
+    "id": 13,
+    "Name": "Hunter Valley",
+    "Lat": -32.6582,
+    "Lng": 151.2432,
+    "Description": "Hunter Valley is a wine region famous for its vineyards and cellar doors.",
+    "Img": "hunter_valley.jpg",
+    "Key": "newsouthwales",
+    "Ref": "https://unsplash.com/de/fotos/ULZ43Nw0oJY"
+  },
+
+  {
+    "id": 14,
+    "Name": "Lord Howe Island",
+    "Lat": -31.5380,
+    "Lng": 159.0837,
+    "Description": "Lord Howe Island is a UNESCO World Heritage-listed island paradise.",
+    "Img": "lord_howe_island.jpg",
+    "Key": "newsouthwales",
+    "Ref": "https://unsplash.com/de/fotos/wfomwxKDgtg"
+  },
+
+  {
+    "id": 15,
+    "Name": "Canberra",
+    "Lat": -35.2809,
+    "Lng": 149.1300,
+    "Description": "Canberra is Australia's capital city and home to many national institutions.",
+    "Img": "canberra.jpg",
+    "Key": "ACT",
+    "Ref": "https://unsplash.com/de/fotos/V_pvQ96focY"
+  },
+
+  {
+    "id": 16,
+    "Name": "Jervis Bay",
+    "Lat": -35.1110,
+    "Lng": 150.6849,
+    "Description": "Jervis Bay is known for its pristine beaches and clear waters.",
+    "Img": "jervis_bay.jpg",
+    "Key": "newsouthwales",
+    "Ref": "https://unsplash.com/de/fotos/-YwSf_5Dnu0"
+  },
+
+  {
+    "id": 17,
+    "Name": "The Snowy Mountains",
+    "Lat": -36.5000,
+    "Lng": 148.3333,
+    "Description": "The Snowy Mountains are a mecca for winter sports and outdoor activities.",
+    "Img": "snowy_mountains.jpg",
+    "Key": "newsouthwales",
+    "Ref": ""
+  },
+
+  {
+    "id": 18,
+    "Name": "The Hunter Region",
+    "Lat": -32.9167,
+    "Lng": 151.7500,
+    "Description": "The Hunter Region is known for its wine, coal, and beautiful landscapes.",
+    "Img": "hunter_region.jpg",
+    "Key": "newsouthwales",
+    "Ref": ""
+  },
+
+  {
+    "id": 19,
+    "Name": "Port Stephens",
+    "Lat": -32.7250,
+    "Lng": 152.1443,
+    "Description": "Port Stephens is famous for its stunning beaches and dolphin-watching.",
+    "Img": "port_stephens.jpg",
+    "Key": "newsouthwales",
+    "Ref": "https://unsplash.com/de/fotos/WT1eXigwpYo"
+  },
