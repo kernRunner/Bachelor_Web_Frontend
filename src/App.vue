@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { RouterLink, RouterView, useRoute, useRouter } from 'vue-router'
 import { ref, watch } from 'vue';
-import Navbar from './components/Navigation/Navbar.vue';
+import Navbar from './components/Navigation/Nav.vue';
 
 const name = ref('');
 function nameValue(msg: string) {
@@ -18,7 +18,6 @@ function modalValue(msg: boolean) {
 </script>
 
 <template>
-  <Navbar :openV="open" :ids="['header', 'Attractions', 'Activities', 'Accomodations']"
-            :nameValue="name" />
+  <Navbar />
   <RouterView @name="nameValue($event)" @open="modalValue($event)"/>
 </template>

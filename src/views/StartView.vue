@@ -1,291 +1,187 @@
-<template class=" overflow-x-hidden">
-    <div class="h-auto w-full flex justify-center" id="top">
-        <div class="pt-16 md:pt-32 lg:pt-44 pb-16 max-w-6xl mx-10 my-auto w-full flex">
+<template>
 
-            <div class="w-1/2 mx-2">
-                <div class="text-left text-gray-900 text-8xl font-semibold font-[Oswald]">EXPLORE</div>
-                <div class="text-left text-gray-900 text-8xl font-normal font-[BubblerOne] mt-4">DISCOVER</div>
-                <div class="text-left text-gray-900 text-8xl font-normal font-[SourceSansPro] tracking-[14.40px]">ESCAPE
+    <div id="Discover" class="relative h-[800px] w-full flex justify-center bg-[#F5F5F5]">
+        <img src="/src/assets/img/StartPage/Home.jpg" alt="Background"
+            class="absolute inset-0 w-full h-full object-cover z-0" />
+        <div
+            class="relative pt-8 md:pt-16 lg:pt-32 pb-8 md:pb-16 max-w-6xl mx-4 sm:mx-10 w-full flex items-center z-10">
+            <div class="w-full sm:w-full px-4 sm:px-2">
+                <div
+                    class="text-left text-gray-900 text-5xl sm:text-6xl md:text-8xl font-semibold font-[Oswald] text-white">
+                    MAKE A DIFFERENCE
                 </div>
-
-                <div class="mt-12 mr-8 text-black text-sm font-normal font-[SourceSansPro]">Choose your travel favorites and
-                    embark on a journey of unforgettable adventures. Discover the destinations, experiences, and moments
-                    that capture your heart and create cherished memories. Craft your own personalized collection of travel
-                    treasures, and let them guide you towards extraordinary experiences. It's time to select your favorites
-                    and create a travel story that's uniquely yours.</div>
-                <div class="w-2/4 h-[42px] bg-secondaryColor rounded-[100px] shadow flex items-center justify-between px-5 mt-12 cursor-pointer"
-                    @click="openSearch()">
-
-                    <p class="text-center text-white text-[17px] font-semibold font-[SourceSansPro]">Search for
-                        destination</p>
-                    <svg width="21" height="21" viewBox="0 0 21 21" fill="none">
+                <div class="mt-8 mr-4 sm:mr-8 text-3xl font-normal font-[SourceSansPro] text-white">
+                    Support charities with every booking, at no extra cost.
+                </div>
+                <a href="#get_started"
+                    class="inline-flex h-[42px] bg-secondaryColor rounded-full shadow items-center justify-between px-5 mt-8 sm:mt-12 cursor-pointer">
+                    <p class="text-center text-white text-sm sm:text-[17px] font-semibold font-[SourceSansPro]">GET
+                        STARTED</p>
+                    <svg width="18" height="18" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        class="ml-6">
                         <path
-                            d="M18.375 18.375L13.8276 13.8276M13.8276 13.8276C15.0583 12.5968 15.7498 10.9276 15.7498 9.18701C15.7498 7.44647 15.0583 5.77721 13.8276 4.54645C12.5968 3.3157 10.9276 2.62427 9.18701 2.62427C7.44647 2.62427 5.77721 3.3157 4.54645 4.54645C3.3157 5.77721 2.62427 7.44647 2.62427 9.18701C2.62427 10.9276 3.3157 12.5968 4.54645 13.8276C5.77721 15.0583 7.44647 15.7498 9.18701 15.7498C10.9276 15.7498 12.5968 15.0583 13.8276 13.8276Z"
+                            d="M5.06545 10.1312L2.75977 2.63917C8.27518 4.24299 13.4763 6.77673 18.1389 10.1312C13.4766 13.4861 8.27583 16.0204 2.76061 17.6248L5.06545 10.1312ZM5.06545 10.1312H11.3974"
                             stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </svg>
-                </div>
-            </div>
-            <div class="w-1/2 relative flex justify-center min-h-[550px]">
-                <img class="w-[320px] h-[450px] rounded-[25px] absolute shadow-2xl" src="@/assets/img/StartPage/Road.jpg" />
-                <img class="w-[200px] h-[350px] rounded-[25px] absolute mt-44 ml-80 shadow-2xl"
-                    src="@/assets/img/StartPage/Map.png" />
+                </a>
             </div>
         </div>
     </div>
 
-    <!-- <div class="h-auto w-full flex justify-center mt-14">
-        <div className="w-2/5 h-[42px] bg-secondaryColor rounded-[100px] shadow flex items-center justify-between px-10">
+    <div class="h-auto justify-center flex">
+        <div class="pt-16 sm:pt-32 max-w-6xl mx-2 sm:mx-10 my-auto w-full flex flex-col sm:flex-row">
+            <div class="w-full sm:w-1/2 px-2 h-auto font-[SourceSansPro] sm:mr-6 text-center sm:text-left">
+                <p class="text-3xl">What is Distance Reacher?</p>
+                <p class="text-4xl font-bold">Here’s how it works</p>
+                <p class="mt-4">Welcome to our travel app, where your bookings make a difference! Every time you book
+                    through us, we donate our affiliate earnings to charity. You don't pay extra, but you make a
+                    difference with every trip. Let's explore and give back together!
+                </p>
+                <RouterLink :to="{ name: 'about' }" class="rounded-md pr-3 font-[SourceSansPro] text-lg font-semibold">
+                    <div class="inline-flex items-center group sm:pt-8">
+                        <p>More about us</p>
+                        <img src="@/assets/icons/arrowright.svg" alt="arrow to About Page"
+                            class="ml-6 lg:group-hover:ml-12 transition-all duration-300">
+                    </div>
+                </RouterLink>
+            </div>
+            <div class="w-full sm:w-1/2 flex justify-end h-48 mt-8 sm:mt-0 ">
+                <div class="">
+                    <p class="font-bold">Our Partner</p>
+                    <div class="flex">
+                        <!-- <a href="https://www.hostelworld.com/" class="block mt-2  mr-2" target="_blank">
+                            <div
+                                class="  py-2 bg-secondaryColor rounded-full shadow inline-flex items-center justify-between px-5 cursor-pointer">
+                                <img src="@/assets/icons/accomodation/hostelworld.png" alt="" class=" mr-4">
+                                <p
+                                    class="text-center text-white text-sm sm:text-[17px] font-semibold font-[SourceSansPro]">
+                                    Hostelworld</p>
+                            </div>
+                        </a>
+                        <a href="https://www.booking.com/" class="block  mt-2 mx-2" target="_blank">
+                            <div class=" py-2 bg-secondaryColor rounded-full shadow inline-flex items-center justify-between px-5 cursor-pointer">
+                                <img src="@/assets/icons/accomodation/booking.png" alt="" class=" mr-4">
+                                <p
+                                    class="text-center text-white text-sm sm:text-[17px] font-semibold font-[SourceSansPro]">
+                                    Booking.com</p>
+                            </div>
+                        </a> -->
+                        <a href="https://www.viator.com/?pid=P00192029&mcid=42383&medium=link&medium_version=selector" class="block mt-2 mx-2" target="_blank">
+                            <div
+                                class="py-2 bg-secondaryColor rounded-full shadow inline-flex items-center justify-between px-5 cursor-pointer">
+                                <img src="@/assets/icons/accomodation/viator.png" alt="Viator" class="mr-4 h-8">
+                                <p
+                                    class="text-center text-white text-sm sm:text-[17px] font-semibold font-[SourceSansPro]">
+                                    Viator</p>
+                            </div>
+                        </a>
 
-            <p className="text-center text-white text-[17px] font-semibold font-[SourceSansPro]">Search for destination</p>
-            <svg width="21" height="21" viewBox="0 0 21 21" fill="none">
-                <path
-                    d="M18.375 18.375L13.8276 13.8276M13.8276 13.8276C15.0583 12.5968 15.7498 10.9276 15.7498 9.18701C15.7498 7.44647 15.0583 5.77721 13.8276 4.54645C12.5968 3.3157 10.9276 2.62427 9.18701 2.62427C7.44647 2.62427 5.77721 3.3157 4.54645 4.54645C3.3157 5.77721 2.62427 7.44647 2.62427 9.18701C2.62427 10.9276 3.3157 12.5968 4.54645 13.8276C5.77721 15.0583 7.44647 15.7498 9.18701 15.7498C10.9276 15.7498 12.5968 15.0583 13.8276 13.8276Z"
-                    stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
-
+                        <a href="https://amzn.to/3KXwOqv" class="block mt-2 mx-2" target="_blank">
+                            <div
+                                class="py-2 bg-secondaryColor rounded-full shadow inline-flex items-center justify-between px-5 cursor-pointer">
+                                <img src="@/assets/icons/accomodation/Amazon.png" alt="Viator" class="mr-4 h-8 p-1 rounded-md bg-white">
+                                <p
+                                    class="text-center text-white text-sm sm:text-[17px] font-semibold font-[SourceSansPro]">
+                                    Amazon</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div> -->
+    </div>
+
 
     <InfoBlock />
 
+    <BannerDestination />
+
     <div class="h-auto w-full flex justify-center">
-        <div class="pt-16 md:pt-32 lg:pt-44 pb-16 max-w-6xl mx-10 my-auto w-full flex" id="Discover">
+        <div class="pt-8 sm:pt-16 md:pt-32 lg:pt-44 pb-8 sm:pb-16 max-w-6xl mx-4 sm:mx-10 my-auto w-full flex"
+            id="Discover">
             <div class="w-full">
-                <p class="font-bold text-4xl"><span class="text-secondaryColor">Discover</span> Fantastic Places</p>
+                <p class="font-bold text-2xl sm:text-3xl md:text-4xl"><span class="text-secondaryColor">Discover</span>
+                    Fantastic Places</p>
             </div>
         </div>
     </div>
 
-
-
-    <div class=" relative  transition-all duration-700 " :class="[show ? 'translate-x-0' : ' translate-x-[100vw]']">
-
-
-        <div class="h-auto flex absolute bg-white z-10 overflow-scroll w-screen max-w-6xl m-auto right-0 left-0"
-            id="container" ref="container">
-            <div class="w-[200vw] flex">
-                <div class="pb-16 my-auto w-screen flex overflow-scroll mr-2  ">
-                    <div class="w-full overflow-scroll">
-                        <div class="grid grid-cols-8 h-[600px] gap-2">
-
-                            <div class="row-span-2 bg-red rounded-lg overflow-hidden relative">
-                                <p class="absolute bottom-[15px] text-white font-bold ml-6 z-10">Sydney</p>
-                                <img src="@/assets/img/au/City/goldcoast.png" alt="" class="h-full w-full object-cover ">
-                            </div>
-                            <div class="bg-red rounded-lg  overflow-hidden">
-                                <img src="@/assets/img/au/City/melbourne.jpg" alt="" class="h-full w-full object-cover ">
-                            </div>
-                            <div class="col-span-2 bg-red rounded-lg  overflow-hidden">
-                                <img src="@/assets/img/au/City/uluru.png" alt="" class="h-full w-full object-cover ">
-                            </div>
-                            <div class="col-span-2 row-span-2 bg-red rounded-lg  overflow-hidden">
-                                <img src="@/assets/img/au/City/sydney.png" alt="" class="h-full w-full object-cover ">
-                            </div>
-                            <div class="row-span-2 bg-red rounded-lg  overflow-hidden">
-                                <img src="@/assets/img/au/City/goldcoast.png" alt="" class="h-full w-full object-cover ">
-                            </div>
-
-
-
-                            <div class="bg-red rounded-lg  overflow-hidden">
-                                <img src="@/assets/img/au/City/melbourne.jpg" alt="" class="h-full w-full object-cover ">
-                            </div>
-                            <div class="col-span-2 row-span-2 bg-red rounded-lg  overflow-hidden">
-                                <img src="@/assets/img/au/City/sydney.png" alt="" class="h-full w-full object-cover ">
-                            </div>
-                            <div class="col-span-1 bg-red rounded-lg  overflow-hidden">
-                                <img src="@/assets/img/au/City/melbourne.jpg" alt="" class="h-full w-full object-cover ">
-                            </div>
-                            <div class="bg-red rounded-lg  overflow-hidden">
-                                <img src="@/assets/img/au/City/melbourne.jpg" alt="" class="h-full w-full object-cover ">
-                            </div>
-
-                            <div class="bg-red rounded-lg  overflow-hidden">
-                                <img src="@/assets/img/au/City/melbourne.jpg" alt="" class="h-full w-full object-cover ">
-                            </div>
-                            <div class="col-span-2 bg-red rounded-lg  overflow-hidden">
-                                <img src="@/assets/img/au/City/uluru.png" alt="" class="h-full w-full object-cover ">
-                            </div>
-                            <div class="col-span-2 bg-red rounded-lg  overflow-hidden">
-                                <img src="@/assets/img/au/City/uluru.png" alt="" class="h-full w-full object-cover ">
-                            </div>
-                            <div class="bg-red rounded-lg  overflow-hidden">
-                                <img src="@/assets/img/au/City/melbourne.jpg" alt="" class="h-full object-cover ">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="pb-16 my-auto w-screen flex overflow-scroll">
-                    <div class="w-full overflow-scroll">
-                        <div class="grid grid-cols-8 h-[600px] gap-2">
-
-                            <div class="row-span-2 bg-red rounded-lg overflow-hidden">
-                                <img src="@/assets/img/au/City/goldcoast.png" alt="" class="h-full w-full object-cover ">
-                            </div>
-                            <div class="bg-red rounded-lg  overflow-hidden">
-                                <img src="@/assets/img/au/City/melbourne.jpg" alt="" class="h-full w-full object-cover ">
-                            </div>
-                            <div class="col-span-2 bg-red rounded-lg  overflow-hidden">
-                                <img src="@/assets/img/au/City/uluru.png" alt="" class="h-full w-full object-cover ">
-                            </div>
-                            <div class="col-span-2 row-span-2 bg-red rounded-lg  overflow-hidden">
-                                <img src="@/assets/img/au/City/sydney.png" alt="" class="h-full w-full object-cover ">
-                            </div>
-                            <div class="row-span-2 bg-red rounded-lg  overflow-hidden">
-                                <img src="@/assets/img/au/City/goldcoast.png" alt="" class="h-full w-full object-cover ">
-                            </div>
-
-
-
-                            <div class="bg-red rounded-lg  overflow-hidden">
-                                <img src="@/assets/img/au/City/melbourne.jpg" alt="" class="h-full w-full object-cover ">
-                            </div>
-                            <div class="col-span-2 row-span-2 bg-red rounded-lg  overflow-hidden">
-                                <img src="@/assets/img/au/City/sydney.png" alt="" class="h-full w-full object-cover ">
-                            </div>
-                            <div class="col-span-1 bg-red rounded-lg  overflow-hidden">
-                                <img src="@/assets/img/au/City/melbourne.jpg" alt="" class="h-full w-full object-cover ">
-                            </div>
-                            <div class="bg-red rounded-lg  overflow-hidden">
-                                <img src="@/assets/img/au/City/melbourne.jpg" alt="" class="h-full w-full object-cover ">
-                            </div>
-
-                            <div class="bg-red rounded-lg  overflow-hidden">
-                                <img src="@/assets/img/au/City/melbourne.jpg" alt="" class="h-full w-full object-cover ">
-                            </div>
-                            <div class="col-span-2 bg-red rounded-lg  overflow-hidden">
-                                <img src="@/assets/img/au/City/uluru.png" alt="" class="h-full w-full object-cover ">
-                            </div>
-                            <div class="col-span-2 bg-red rounded-lg  overflow-hidden">
-                                <img src="@/assets/img/au/City/uluru.png" alt="" class="h-full w-full object-cover ">
-                            </div>
-                            <div class="bg-red rounded-lg  overflow-hidden">
-                                <img src="@/assets/img/au/City/melbourne.jpg" alt="" class="h-full object-cover ">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="h-auto w-full flex justify-center z-10 absolute  m-4">
-            <div class=" max-w-6xl mx-10 my-auto w-full flex" id="Discover">
-                <div class="w-full">
-                    <div class="w-fit h-[42px] bg-secondaryColor rounded-[100px] shadow flex items-center justify-around px-5  cursor-pointer max-w-6xl "
-                        @click="openMoreAtt()">
-                        <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg"
-                            class=" rotate-180">
-                            <path
-                                d="M5.06545 10.1312L2.75977 2.63917C8.27518 4.24299 13.4763 6.77673 18.1389 10.1312C13.4766 13.4861 8.27583 16.0204 2.76061 17.6248L5.06545 10.1312ZM5.06545 10.1312H11.3974"
-                                stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                        <div class="text-center text-white text-xl font-semibold font-[SourceSansPro] tracking-[8px] mx-5">
-                            LESS
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-
-    <div class="h-auto justify-center overflow-scroll  flex ">
-
-        <div class=" pb-16 max-w-6xl mr-10 my-auto w-full flex transition-all duration-700"
-            :class="[show ? '-translate-x-[100vw]' : ' translate-x-0']">
-
-            <div class="w-1/2 px-6">
+    <div class="h-auto justify-center flex">
+        <div class="pb-8 sm:pb-16 max-w-6xl mx-2 sm:mx-10 my-auto w-full flex flex-col sm:flex-row transition-all duration-700"
+            :class="[show ? '-translate-x-full' : 'translate-x-0']">
+            <div class="w-full sm:w-1/2 px-2 sm:px-6">
                 <div class="grid grid-rows-5 grid-cols-2 grid-flow-col gap-4">
-                    <RouterLink :to="{ name: 'contentView', params: { name: 'Sydney', country: 'au', id: 0 } }"
+                    <RouterLink
+                        :to="{ name: 'contentView', params: { name: 'Northern Territory', country: 'au', jumpId: 83 } }"
                         class="cursor-pointer relative row-span-2 bg-secondaryColor rounded-2xl overflow-hidden">
                         <p class="absolute bottom-[15px] text-white font-bold ml-6 overflow-hidden ">Uluru</p>
-                        <img src="@/assets/img/au/City/uluru.png" alt="" class="object-cover h-64 w-64">
+                        <img src="@/assets/img/Discover/ulurudiscover.jpg" alt="uluru car view" class="object-cover h-64 w-64">
                     </RouterLink>
-                    <RouterLink :to="{ name: 'contentView', params: { name: 'gold-coast', country: 'au' } }"
+                    <RouterLink :to="{ name: 'contentView', params: { name: 'Queensland', country: 'au', jumpId: 48 } }"
                         class="cursor-pointer relative row-span-3 bg-secondaryColor rounded-2xl overflow-hidden">
                         <p class="absolute bottom-[15px] text-white font-bold ml-6">Gold Coast</p>
-                        <img src="@/assets/img/au/City/goldcoast.png" alt="" class="object-cover h-full w-full">
+                        <img src="@/assets/img/Discover/goldcoastdiscover.jpg" alt="goldcoast city view"
+                            class="object-cover h-full w-full">
                     </RouterLink>
-                    <RouterLink :to="{ name: 'contentView', params: { name: 'queensland', country: 'au' } }"
+                    <RouterLink @click="toTop()"
+                        :to="{ name: 'contentView', params: { name: 'Sydney', country: 'au' } }"
                         class="cursor-pointer relative row-span-3 bg-secondaryColor rounded-2xl overflow-hidden">
                         <p class="absolute bottom-[15px] text-white font-bold ml-6">Sydney</p>
-                        <img src="@/assets/img/au/City/sydney.png" alt="" class="object-cover h-full w-full">
+                        <img src="@/assets/img/Discover/sydneydiscover.jpg" alt="opera house" class="object-cover h-full w-full">
                     </RouterLink>
-                    <RouterLink :to="{ name: 'contentView', params: { name: 'melbourne', country: 'au' } }"
+                    <RouterLink @click="toTop()"
+                        :to="{ name: 'contentView', params: { name: 'Melbourne', country: 'au' } }"
                         class="cursor-pointer relative row-span-2 bg-secondaryColor rounded-2xl overflow-hidden">
                         <p class="absolute bottom-[15px] text-white font-bold ml-6">Melbourne</p>
-                        <img src="@/assets/img/au/City/melbourne.jpg" alt="" class="object-cover h-64 w-64">
+                        <img src="@/assets/img/Discover/melbournediscover.jpg" alt="city skyline" class="object-cover h-64 w-64">
                     </RouterLink>
                 </div>
             </div>
-            <div class="w-1/2 relative pl-32">
-                <div class="mr-8 text-black text-sm font-normal font-[SourceSansPro]">Choose your travel favorites and
-                    embark on a journey of unforgettable adventures. Discover the destinations, experiences, and moments
-                    that capture your heart and create cherished memories. Craft your own personalized collection of
-                    travel
-                    treasures, and let them guide you towards extraordinary experiences. It's time to select your
-                    favorites
-                    and create a travel story that's uniquely yours.
+
+            <div class="w-full sm:w-1/2 pl-0 sm:pl-32 pt-4 sm:pt-0">
+                <div class="mx-4 sm:mx-0 sm:mr-8 text-black text-xs sm:text-sm font-normal font-[SourceSansPro]">
+                    Choose your travel favorites and embark on a journey of unforgettable adventures. Discover the
+                    destinations, experiences, and moments that capture your heart and create cherished memories. Craft
+                    your own personalized collection of travel treasures, and let them guide you towards extraordinary
+                    experiences. It's time to select your favorites and create a travel story that's uniquely yours.
                 </div>
-                <!-- <div class="w-fit h-[42px] bg-secondaryColor rounded-[100px] shadow flex items-center justify-around px-5 mt-12 cursor-pointer"
-                    @click="openMoreAtt()">                 -->
-                <a href="#swiper" class="w-fit h-[42px] bg-secondaryColor rounded-[100px] shadow flex items-center justify-around px-5 mt-12 cursor-pointer">
-                    
-                    <div class="text-center text-white text-xl font-semibold font-[SourceSansPro] tracking-[8px] mx-5">MORE
-                    </div>
-                    <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <!-- <a href="#swiper"
+                    class="w-fit h-10 sm:h-[42px] bg-secondaryColor rounded-full shadow sm:flex hidden items-center justify-around px-2 sm:px-5 mt-4 sm:mt-12 cursor-pointer">
+                    <div
+                        class="text-center text-white text-sm sm:text-xl font-semibold font-[SourceSansPro] tracking-tight sm:tracking-[8px] mx-1 sm:mx-5">
+                        MORE</div>
+                    <svg width="18" height="18" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
                             d="M5.06545 10.1312L2.75977 2.63917C8.27518 4.24299 13.4763 6.77673 18.1389 10.1312C13.4766 13.4861 8.27583 16.0204 2.76061 17.6248L5.06545 10.1312ZM5.06545 10.1312H11.3974"
                             stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                     </svg>
-                </a>
+                </a> -->
             </div>
         </div>
     </div>
 
+    <!-- <Accomodation /> -->
 
-    <SwiperBox :name="''" id="swiper"></SwiperBox>
+    <Activity />
+    <CarouselActivity />
 
-    <!-- <div class="h-auto w-full flex justify-center bg-[#F5F5F5] mt-32">
-        <div class="pt-16 md:pt-32 lg:pt-32 pb-16 max-w-6xl mx-10 my-auto w-full flex">
-            <div class="w-1/2">
-                <p class="font-[Oswald] font-bold text-4xl lg:text-4xl md:text-2xl text-secondaryColor text-left">Explore
-                    Like Never Before</p>
-                <p class="font-bold text-2xl mt-4 text-left">Navigate with Ease using Our Interactive Map</p>
-                <p class="mt-6 text-sm text-left">Discover the incredible attractions of Otago on our interactive map! With
-                    our map feature, <br> exploring Otago has never been easier.</p>
-            </div>
-            <RouterLink :to="{ name: 'map' }" class="w-1/2">
-                <img src="@/assets/img/Map.png" class="rounded-[5px] mx-auto  " />
-            </RouterLink>
-        </div>
-    </div> -->
+    <FooterEnd />
 
-    <div class="h-auto w-full flex justify-center" id="Contact">
-        <div class="py-16 md:py-32 lg:py-44 max-w-6xl mx-10 my-auto w-full">
-            <p class="font-[Oswald] text-secondaryColor font-semibold text-xl uppercase text-center" id="Attractions">ALL
-                We're here to help!</p>
-            <div className="text-black text-[32px] font-bold font-[SourceSansPro] mt-4 text-center">Still have questions ?
-            </div>
-            <div class=" bg-secondaryColor rounded-md w-fit m-auto mt-10">
-                <a href="mailto: abc@example.com">
-                    <p class=" text-white p-2 px-12 font-bold">Get in Touch Now!</p>
-                </a>
-            </div>
-        </div>
-    </div>
 
     <UpButton />
 </template>
-  
+
+
 <script setup lang="ts">
 import { onMounted, ref, watch } from 'vue'
-import InfoBlock from '@/components/Info.vue'
+import InfoBlock from '@/components/Info/Info.vue'
 import SwiperBox from '@/components/Swiper.vue'
-import MapPreview from '@/components/MapPreview.vue'
-import FooterText from '@/components/Navigation/Footer.vue'
+import CarouselActivity from '@/components/Carousel/Activity.vue'
 import UpButton from '@/components/Navigation/upButton.vue'
+import BannerDestination from '@/components/Banner/Destination.vue'
+import Accomodation from '@/components/Banner/Accomodation.vue'
+import Activity from '@/components/Banner/Activity.vue'
+import FooterEnd from '@/components/Navigation/Footer.vue'
 import { useRoute, useRouter, onBeforeRouteUpdate, } from 'vue-router'
 
 const emit = defineEmits(['open', 'name'])
@@ -295,7 +191,7 @@ const route = useRoute();
 onMounted(() => {
     jumpId.value = route.params.jumpId;
     emit('name', "Distance Reacher");
-    scrollToAnchor(jumpId.value)
+    scrollToAnchor(route.params.jumpId);
 })
 
 const open = ref();
@@ -313,7 +209,7 @@ function openMoreAtt() {
     show.value = !show.value;
 }
 
-const container:any = ref(null);
+const container: any = ref(null);
 
 const scrollToPosition = () => {
     if (container.value) {
@@ -321,6 +217,11 @@ const scrollToPosition = () => {
         container.value.scrollLeft = window.innerWidth;
     }
 };
+
+watch(() => route.params.jumpId, (newValue) => {
+    scrollToAnchor(route.params.jumpId);
+});
+
 
 function scrollToAnchor(refName: any) {
     const el = document.getElementById(refName);
@@ -330,7 +231,10 @@ function scrollToAnchor(refName: any) {
     }
 }
 
+function toTop() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
 
 
 </script>
-  

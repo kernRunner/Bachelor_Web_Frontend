@@ -2,10 +2,13 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import StartView from '../views/StartView.vue'
 import Favorite from '../views/Favorite.vue'
+import About from '../views/About.vue'
+import Privacy from '../views/Privacy.vue'
+import Privacypolicy from '../views/PrivacyPolicyApp.vue'
 import { useAttractionStore } from '@/stores/favAttraction';
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHistory(),
   routes: [
     {
       path: '/:jumpId?',
@@ -13,12 +16,6 @@ const router = createRouter({
       component: StartView,
       meta: {
         title: 'Home Page',
-        metaTags: [
-          {
-            name: 'description',
-            content: 'Welcome to the home page!'
-          }
-        ]
       }
     },
     {
@@ -27,49 +24,44 @@ const router = createRouter({
       component: HomeView,
       meta: {
         title: 'Home Page',
-        metaTags: [
-          {
-            name: 'description',
-            content: 'Welcome to the home page!'
-          }
-        ]
       }
     },
-    {
-      path: '/about',
-      name: 'about',
-      component: () => import('../views/AboutView.vue'),
-      meta: {
-        title: 'About Page',
-        metaTags: [
-          {
-            name: 'description',
-            content: 'Learn more about us.'
-          }
-        ]
-      },
-      props: {
-        message: 'Southland',
-      },
-    }
-    ,
     {
       path: '/favorite',
       name: 'favorite',
       component: Favorite,
       meta: {
         title: 'Favorite Page',
-        metaTags: [
-          {
-            name: 'description',
-            content: 'Learn more about us.'
-          }
-        ]
       },
       props: {
         message: 'Favorite',
       },
-    }
+    },
+    {
+      path: '/about',
+      name: 'about',
+      component: About,
+      meta: {
+        title: 'About Page',
+      },
+    },
+    {
+      path: '/privacy',
+      name: 'privacy',
+      component: Privacy,
+      meta: {
+        title: 'Privacy Policy',
+      },
+    },
+    {
+      path: '/privacypolicy',
+      name: 'privacypolicy',
+      component: Privacypolicy,
+      meta: {
+        title: 'Privacy Policy App',
+      },
+    },
+    { path: '/:pathMatch(.*)*', name: 'NotFound', component: StartView }
   ]
 })
 

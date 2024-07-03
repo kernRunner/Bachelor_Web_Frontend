@@ -1,11 +1,12 @@
 <template>
-  <button @click="topFunction()" id="myBtn" ref="bt" class="bg-secondaryColor" title="To Top">Top</button>
+  <button @click="topFunction" id="myBtn" ref="bt" class="bg-secondaryColor" title="To Top">Top</button>
 </template>
 
 <script scoped lang="ts">
 export default {
-  created() {
+  mounted() { // Changed from 'created' to 'mounted'
     window.addEventListener('scroll', this.handleScroll);
+    this.scrollFunction(); // Added this line to run scrollFunction initially
   },
   destroyed() {
     window.removeEventListener('scroll', this.handleScroll);
@@ -15,13 +16,14 @@ export default {
       this.scrollFunction();
     },
     scrollFunction() {
-      // var mybutton:any = this.$refs.bt
-      var mybutton:any = document.getElementById("myBtn");
+      var mybutton: any = document.getElementById("myBtn");
 
-      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        mybutton.classList.add('activeBt');
-      } else {
-        mybutton.classList.remove('activeBt');
+      if (mybutton) { // Check if mybutton is not null
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.classList.add('activeBt');
+        } else {
+          mybutton.classList.remove('activeBt');
+        }
       }
     },
     topFunction() {
@@ -45,13 +47,13 @@ export default {
   font-size: 18px;
   border: none;
   outline: none;
-  border: 1px Solid white;
+  border: 1px solid white;
   color: white;
   cursor: pointer;
   font-weight: 600;
   padding: 5px;
   border-radius: 10px;
-  transition: .2s;
+  transition: 0.2s;
 }
 
 .activeBt {
