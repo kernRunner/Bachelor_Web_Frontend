@@ -1,16 +1,15 @@
 <template>
-
-    <div id="Discover" class="relative h-[800px] w-full flex justify-center bg-[#F5F5F5]">
+    <div id="Discover" class="relative overflow-hidden h-screen sm:h-[800px] w-full flex justify-center bg-[#F5F5F5]">
         <img src="/src/assets/img/StartPage/Home.jpg" alt="Background"
             class="absolute inset-0 w-full h-full object-cover z-0" />
         <div
             class="relative pt-8 md:pt-16 lg:pt-32 pb-8 md:pb-16 max-w-6xl mx-4 sm:mx-10 w-full flex items-center z-10">
             <div class="w-full sm:w-full px-4 sm:px-2">
                 <div
-                    class="text-left text-gray-900 text-5xl sm:text-6xl md:text-8xl font-semibold font-[Oswald] text-white">
+                    class="text-left text-gray-900 text-4xl sm:text-6xl md:text-8xl font-semibold font-[Oswald] text-white">
                     MAKE A DIFFERENCE
                 </div>
-                <div class="mt-8 mr-4 sm:mr-8 text-3xl font-normal font-[SourceSansPro] text-white">
+                <div class="mt-8 mr-4 sm:mr-8 text-xl font-normal font-[SourceSansPro] text-white">
                     Support charities with every booking, at no extra cost.
                 </div>
                 <a href="#get_started"
@@ -38,34 +37,17 @@
                     difference with every trip. Let's explore and give back together!
                 </p>
                 <RouterLink :to="{ name: 'about' }" class="rounded-md pr-3 font-[SourceSansPro] text-lg font-semibold">
-                    <div class="inline-flex items-center group sm:pt-8">
+                    <div class="inline-flex items-center group pt-8">
                         <p>More about us</p>
                         <img src="@/assets/icons/arrowright.svg" alt="arrow to About Page"
-                            class="ml-6 lg:group-hover:ml-12 transition-all duration-300">
+                            class="ml-2 sm:ml-6 lg:group-hover:ml-12 transition-all duration-300">
                     </div>
                 </RouterLink>
             </div>
-            <div class="w-full sm:w-1/2 flex justify-end h-48 mt-8 sm:mt-0 ">
+            <div class="w-2/2 sm:w-1/2 sm:flex justify-left sm:justify-end sm:h-48 mt-16 sm:mt-0 mx-10 sm:mx-0">
                 <div class="">
                     <p class="font-bold">Our Partner</p>
                     <div class="flex">
-                        <!-- <a href="https://www.hostelworld.com/" class="block mt-2  mr-2" target="_blank">
-                            <div
-                                class="  py-2 bg-secondaryColor rounded-full shadow inline-flex items-center justify-between px-5 cursor-pointer">
-                                <img src="@/assets/icons/accomodation/hostelworld.png" alt="" class=" mr-4">
-                                <p
-                                    class="text-center text-white text-sm sm:text-[17px] font-semibold font-[SourceSansPro]">
-                                    Hostelworld</p>
-                            </div>
-                        </a>
-                        <a href="https://www.booking.com/" class="block  mt-2 mx-2" target="_blank">
-                            <div class=" py-2 bg-secondaryColor rounded-full shadow inline-flex items-center justify-between px-5 cursor-pointer">
-                                <img src="@/assets/icons/accomodation/booking.png" alt="" class=" mr-4">
-                                <p
-                                    class="text-center text-white text-sm sm:text-[17px] font-semibold font-[SourceSansPro]">
-                                    Booking.com</p>
-                            </div>
-                        </a> -->
                         <a href="https://www.viator.com/?pid=P00192029&mcid=42383&medium=link&medium_version=selector" class="block mt-2 mx-2" target="_blank">
                             <div
                                 class="py-2 bg-secondaryColor rounded-full shadow inline-flex items-center justify-between px-5 cursor-pointer">
@@ -97,7 +79,7 @@
     <BannerDestination />
 
     <div class="h-auto w-full flex justify-center">
-        <div class="pt-8 sm:pt-16 md:pt-32 lg:pt-44 pb-8 sm:pb-16 max-w-6xl mx-4 sm:mx-10 my-auto w-full flex"
+        <div class="pt-16 sm:pt-16 md:pt-32 lg:pt-44 pb-8 sm:pb-16 max-w-6xl mx-4 sm:mx-10 my-auto w-full flex"
             id="Discover">
             <div class="w-full">
                 <p class="font-bold text-2xl sm:text-3xl md:text-4xl"><span class="text-secondaryColor">Discover</span>

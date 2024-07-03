@@ -1,6 +1,6 @@
 <template>
     <div class="h-auto w-full flex justify-center " id="Contact">
-        <div class="py-8 sm:py-16 md:py-32 lg:py-44 max-w-6xl mx-4 sm:mx-10 my-auto w-full">
+        <div class="py-16 sm:py-16 md:py-32 lg:py-44 max-w-6xl mx-4 sm:mx-10 my-auto w-full">
             <p class="font-[Oswald] text-secondaryColor font-semibold text-lg sm:text-xl uppercase text-center"
                 id="Attractions">
                 ALL

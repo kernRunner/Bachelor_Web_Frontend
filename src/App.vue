@@ -19,5 +19,5 @@ function modalValue(msg: boolean) {
 
 <template>
   <Navbar />
-  <RouterView @name="nameValue($event)" @open="modalValue($event)"/>
+  <RouterView @name="nameValue($event)" @open="modalValue($event)" />
 </template>

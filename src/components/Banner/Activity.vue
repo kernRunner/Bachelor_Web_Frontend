@@ -1,5 +1,5 @@
 <template>
-<div id="activity" class="relative h-auto w-full flex justify-center bg-[#F5F5F5] mt-32 bg-right scroll-mt-16">
+<div id="activity" class="relative h-auto w-full flex justify-center bg-[#F5F5F5] mt-16 sm:mt-32 bg-right scroll-mt-16">
     <img src="/src/assets/img/StartPage/Activities.jpg" alt="Background" class="absolute inset-0 w-full h-full object-cover z-0" />
     <div class="relative max-w-6xl mx-4 sm:mx-10 w-full flex items-end z-10">
 

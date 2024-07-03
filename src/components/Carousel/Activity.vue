@@ -1,5 +1,5 @@
 <template>
-	<div id="activity" class="h-auto w-full flex justify-center mt-8 sm:mt-16 md:mt-32 bg-[#F5F5F5]">
+	<div id="activity" class="h-auto w-full flex justify-center mt-16 sm:mt-16 md:mt-32 bg-[#F5F5F5]">
 		<div class="pt-8 md:pt-16 lg:pt-16 pb-8 md:pb-16 max-w-6xl mx-4 sm:mx-10 w-full">
 			<!-- <p class="font-[Oswald] font-bold text-gray text-2xl md:text-3xl lg:text-4xl pb-4 md:pb-8">Outdoor <span class="text-secondaryColor">Activities</span></p> -->
 			<Carousel :items-to-show="itemShow" :wrap-around="true" :start-position="2">
@@ -503,6 +503,21 @@ const json = ref({
 	border: 2px Solid black;
 	border-radius: 100px;
 	background-color: none !important;
+}
+@media only screen and (max-width: 600px) {
+	.carousel__pagination-button {
+		display: none;
+	}
+	.carousel__pagination {
+		margin-top: 10px !important;
+	}
+	.carousel__prev {
+		margin-left: 50px;
+	}
+
+	.carousel__next {
+		margin-right: 50px;
+	}
 }
 
 .carousel__pagination-button::after {
