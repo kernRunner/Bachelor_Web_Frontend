@@ -60,10 +60,10 @@
                     not possible.</p>
                 <h3 class="text-xl mt-4">Notice concerning the Responsible Party</h3>
                 <p>The responsible party for data processing on this website is:</p>
-                <p>Distance Reacher<br />
-                    Ernst Lehner Str. 8</p>
-                <!-- <p>Phone: &#91;Phone number of the responsible party&#93;<br />
-                    E-mail: impactfulvoyage@gmail.com</p> -->
+                <p>Marco Huber<br />
+                    Ernst-Lehner-Straße 8 86159 Augsburg</p>
+                <p>
+                    E-mail: impactfulvoyage@gmail.com</p>
                 <!-- <p>The responsible party is the natural or legal person who alone or jointly with others decides on the
                     purposes and means of processing personal data (e.g., names, e-mail addresses, etc.).</p> -->
                 <h3 class="text-xl mt-4">Storage Duration</h3>
@@ -252,6 +252,11 @@
                         rel="noopener noreferrer">https://www.dataprivacyframework.gov/s/participant-search/participant-detail?contact=true&id=a2zt000000001L5AAI&status=Active</a>
                 </p>
                 <p>Source: <a href="https://www.e-recht24.de">https://www.e-recht24.de</a></p>
+                <h1 class="text-4xl mt-16">Impressum</h1>
+                <p class="mt-4">The responsible party for data processing on this website is:</p>
+                <p>Marco Huber<br />
+                    Ernst-Lehner-Straße 8 86159 Augsburg</p>
+                <p>E-mail: impactfulvoyage@gmail.com</p>
             </div>
         </div>
     </div>

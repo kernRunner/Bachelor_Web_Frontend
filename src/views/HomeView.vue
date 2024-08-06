@@ -1,4 +1,9 @@
 <template>
+  <Meta  v-if="fetchedData"
+        :title="fetchedData.meta.title" 
+        :description="fetchedData.meta.description" 
+        :keywords="fetchedData.meta.keywords"
+    />
   <div id="start" class="h-[50vh] min-h-[50vh] w-full flex justify-center bg-[#F5F5F5] relative">
     <img v-if="fetchedData"
       :src="myGlobalVariable.substring(0, myGlobalVariable.length - 1) + fetchedData.image.data.attributes.url"
@@ -53,6 +58,7 @@ import CarouselActivities from '@/components/Carousel/Content.vue'
 import FooterText from '@/components/Navigation/Footer.vue'
 import UpButton from '@/components/Navigation/upButton.vue'
 import ContentBlock from '@/components/Content.vue'
+import Meta from '@/components/metadata.vue'
 
 import { useRoute, useRouter } from 'vue-router';
 
@@ -120,7 +126,7 @@ const forceRerender = () => {
 
 async function fetchData() {
   try {
-    const response = await fetch(myGlobalVariable + "api/hotspots/?populate[0]=image&populate[1]=attractions.image&filters[name][$eq]=" + name.value + "&populate[2]=activities");
+    const response = await fetch(myGlobalVariable + "api/hotspots/?populate[0]=image&populate[1]=attractions.image&filters[name][$eq]=" + name.value + "&populate[2]=activities&populate[3]=meta");
     const data = await response.json();
     // console.log(data.data[0].attributes)
     fetchedData.value = data.data[0].attributes;
@@ -140,3 +146,5 @@ async function fetchData() {
 
 
 </script>
+
+

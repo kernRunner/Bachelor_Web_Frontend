@@ -1,4 +1,9 @@
 <template>
+    <Meta
+        title="Distance Reacher: Book Travel and Support Charities" 
+        description="Welcome to our travel page, where your bookings make a difference! Every time you book through us, we donate our affiliate earnings to charity. You don't pay extra, but you make a difference with every trip. Let's explore and give back together!" 
+        keywords="Distance Reacher, travel bookings, support charities, find destinations, book accommodations, create activities, charitable travel, make a difference, travel app"
+    />
     <div id="Discover" class="relative overflow-hidden h-screen sm:h-[800px] w-full flex justify-center bg-[#F5F5F5]">
         <img src="/src/assets/img/StartPage/Home.jpg" alt="Background"
             class="absolute inset-0 w-full h-full object-cover z-0" />
@@ -46,9 +51,9 @@
             </div>
             <div class="w-2/2 sm:w-1/2 sm:flex justify-left sm:justify-end sm:h-48 mt-16 sm:mt-0 mx-10 sm:mx-0">
                 <div class="">
-                    <p class="font-bold">Our Partner</p>
-                    <div class="flex">
-                        <a href="https://www.viator.com/?pid=P00192029&mcid=42383&medium=link&medium_version=selector" class="block mt-2 mx-2" target="_blank">
+                    <p class="font-bold mb-4 justify-center text-center">Our Partner</p>
+                    <div class="inline-flex flex-wrap justify-center">
+                        <a href="https://www.viator.com/?pid=P00192029&mcid=42383&medium=link&medium_version=selector" class="block my-2 mx-2" target="_blank">
                             <div
                                 class="py-2 bg-secondaryColor rounded-full shadow inline-flex items-center justify-between px-5 cursor-pointer">
                                 <img src="@/assets/icons/accomodation/viator.png" alt="Viator" class="mr-4 h-8">
@@ -58,15 +63,45 @@
                             </div>
                         </a>
 
-                        <a href="https://amzn.to/3KXwOqv" class="block mt-2 mx-2" target="_blank">
+                        <a href="https://amzn.to/3LmfFXr" class="block my-2 mx-2" target="_blank">
                             <div
                                 class="py-2 bg-secondaryColor rounded-full shadow inline-flex items-center justify-between px-5 cursor-pointer">
-                                <img src="@/assets/icons/accomodation/Amazon.png" alt="Viator" class="mr-4 h-8 p-1 rounded-md bg-white">
+                                <img src="@/assets/icons/accomodation/Amazon.png" alt="Amazon" class="mr-4 h-8 p-1 rounded-md bg-white">
                                 <p
                                     class="text-center text-white text-sm sm:text-[17px] font-semibold font-[SourceSansPro]">
                                     Amazon</p>
                             </div>
                         </a>
+                        <a href="https://trip.tp.st/FfBIAAsx" class="block my-2 mx-2" target="_blank">
+                            <div
+                                class="py-2 bg-secondaryColor rounded-full shadow inline-flex items-center justify-between px-5 cursor-pointer">
+                                <img src="@/assets/icons/accomodation/trip.png" alt="Trip.com" class="mr-4 h-8  rounded-md ">
+                                <p
+                                    class="text-center text-white text-sm sm:text-[17px] font-semibold font-[SourceSansPro]">
+                                    Trip.com</p>
+                            </div>
+                        </a>
+                        <a href="https://yesim.tp.st/rPkNKFLk" class="block my-2 mx-2" target="_blank">
+                            <div
+                                class="py-2 bg-secondaryColor rounded-full shadow inline-flex items-center justify-between px-5 cursor-pointer">
+                                <img src="@/assets/icons/accomodation/yesim.png" alt="Yesim" class="mr-4 h-8 rounded-md ">
+                                <p
+                                    class="text-center text-white text-sm sm:text-[17px] font-semibold font-[SourceSansPro]">
+                                    Yesim</p>
+                            </div>
+                        </a>
+                        
+
+                        <a href="https://kiwi.tp.st/KpF58stu" class="block my-2 mx-2" target="_blank">
+                            <div
+                                class="py-2 bg-secondaryColor rounded-full shadow inline-flex items-center justify-between px-5 cursor-pointer">
+                                <img src="@/assets/icons/accomodation/kiwi.png" alt="Kiwi.com" class="mr-4 h-8 rounded-md ">
+                                <p
+                                    class="text-center text-white text-sm sm:text-[17px] font-semibold font-[SourceSansPro]">
+                                    Kiwi.com</p>
+                            </div>
+                        </a>
+
                     </div>
                 </div>
             </div>
@@ -165,6 +200,7 @@ import Accomodation from '@/components/Banner/Accomodation.vue'
 import Activity from '@/components/Banner/Activity.vue'
 import FooterEnd from '@/components/Navigation/Footer.vue'
 import { useRoute, useRouter, onBeforeRouteUpdate, } from 'vue-router'
+import Meta from '@/components/metadata.vue'
 
 const emit = defineEmits(['open', 'name'])
 const jumpId = ref();

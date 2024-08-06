@@ -1,4 +1,9 @@
 <template>
+    <Meta
+        title=" Your Travel Favorites | Distance Reacher" 
+        description="Choose your travel favorites with Distance Reacher and embark on unforgettable adventures. Discover destinations, experiences, and moments that capture your heart." 
+        keywords="travel favorites, Distance Reacher, unforgettable adventures, discover destinations, travel experiences, create memories, personalized travel"
+    />
     <Navbar :ids="['header', 'Attractions', 'Activities', 'Accomodations']" :nameValue="'Distance Reacher'" />
     <div class="h-auto w-full  flex justify-center  pt-0 sm:pt-32">
         <div class="max-w-6xl mx-10 flex flex-col justify-center w-full">
@@ -94,6 +99,7 @@
 import { ref, onMounted, watch, computed } from 'vue';
 import { useAttractionStore } from '@/stores/favAttraction'
 import { Menu, MenuButton, MenuItems, MenuItem } from '@headlessui/vue'
+import Meta from '@/components/metadata.vue'
 
 const store = useAttractionStore();
 const favLength: any = ref(store.getAllLocalStorageItems());

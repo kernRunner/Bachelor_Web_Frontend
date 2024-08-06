@@ -1,4 +1,9 @@
 <template>
+    <Meta
+        title="About Distance Reacher: Transforming Purchases into Acts of Giving" 
+        description="Learn about Distance Reacher, the innovative platform that turns everyday purchases into powerful acts of giving. Support charities effortlessly through your travel bookings and online shopping without spending extra." 
+        keywords="Distance Reacher, about us, charitable giving, innovative platform, support charities, travel bookings, online shopping, affiliate partners, make a difference"
+    />
     <div class="h-auto justify-center flex">
         <div class="pt-32 sm:pt-32 max-w-6xl mx-2 sm:mx-10 my-auto w-full flex flex-col sm:flex-row ">
             <div class="w-full sm:w-1/2 hidden sm:flex justify-center items-center pr-0 sm:pr-4 mb-8 sm:mb-0 ">
@@ -14,25 +19,8 @@
                 </p>
                 <div class="mt-4">
                     <p class="font-bold">Our Partner</p>
-                    <div class="flex">
-                        <!-- <a href="https://www.hostelworld.com/" class="block mt-2  mr-2" target="_blank">
-                            <div
-                                class="  py-2 bg-secondaryColor rounded-full shadow inline-flex items-center justify-between px-5 cursor-pointer">
-                                <img src="@/assets/icons/accomodation/hostelworld.png" alt="" class=" mr-4">
-                                <p
-                                    class="text-center text-white text-sm sm:text-[17px] font-semibold font-[SourceSansPro]">
-                                    Hostelworld</p>
-                            </div>
-                        </a>
-                        <a href="https://www.booking.com/" class="block  mt-2 mx-2" target="_blank">
-                            <div class=" py-2 bg-secondaryColor rounded-full shadow inline-flex items-center justify-between px-5 cursor-pointer">
-                                <img src="@/assets/icons/accomodation/booking.png" alt="" class=" mr-4">
-                                <p
-                                    class="text-center text-white text-sm sm:text-[17px] font-semibold font-[SourceSansPro]">
-                                    Booking.com</p>
-                            </div>
-                        </a> -->
-                        <a href="https://www.viator.com/?pid=P00192029&mcid=42383&medium=link&medium_version=selector" class="block mt-2 mx-2" target="_blank">
+                    <div class=" inline-flex flex-wrap justify-center">
+                        <a href="https://www.viator.com/?pid=P00192029&mcid=42383&medium=link&medium_version=selector" class="block my-2 mx-2" target="_blank">
                             <div
                                 class="py-2 bg-secondaryColor rounded-full shadow inline-flex items-center justify-between px-5 cursor-pointer">
                                 <img src="@/assets/icons/accomodation/viator.png" alt="Viator" class="mr-4 h-8">
@@ -42,16 +30,49 @@
                             </div>
                         </a>
 
-                        <a href="https://amzn.to/4eeERwv" class="block mt-2 mx-2" target="_blank">
+                        <a href="https://amzn.to/3LmfFXr" class="block my-2 mx-2" target="_blank">
                             <div
                                 class="py-2 bg-secondaryColor rounded-full shadow inline-flex items-center justify-between px-5 cursor-pointer">
-                                <img src="@/assets/icons/accomodation/Amazon.png" alt="Viator"
+                                <img src="@/assets/icons/accomodation/Amazon.png" alt="Amazon"
                                     class="mr-4 h-8 p-1 rounded-md bg-white">
                                 <p
                                     class="text-center text-white text-sm sm:text-[17px] font-semibold font-[SourceSansPro]">
                                     Amazon</p>
                             </div>
                         </a>
+
+                        <a href="https://trip.tp.st/FfBIAAsx" class="block my-2 mx-2" target="_blank">
+                            <div
+                                class="py-2 bg-secondaryColor rounded-full shadow inline-flex items-center justify-between px-5 cursor-pointer">
+                                <img src="@/assets/icons/accomodation/trip.png" alt="Trip.com"
+                                    class="mr-4 h-8 p-1 rounded-md bg-white">
+                                <p
+                                    class="text-center text-white text-sm sm:text-[17px] font-semibold font-[SourceSansPro]">
+                                    Trip.com</p>
+                            </div>
+                        </a>
+
+                        <a href="https://yesim.tp.st/rPkNKFLk" class="block my-2 mx-2" target="_blank">
+                            <div
+                                class="py-2 bg-secondaryColor rounded-full shadow inline-flex items-center justify-between px-5 cursor-pointer">
+                                <img src="@/assets/icons/accomodation/yesim.png" alt="Yesim" class="mr-4 h-8 rounded-md ">
+                                <p
+                                    class="text-center text-white text-sm sm:text-[17px] font-semibold font-[SourceSansPro]">
+                                    Yesim</p>
+                            </div>
+                        </a>
+                        <br>
+
+                        <a href="https://kiwi.tp.st/KpF58stu" class="block my-2 mx-2" target="_blank">
+                            <div
+                                class="py-2 bg-secondaryColor rounded-full shadow inline-flex items-center justify-between px-5 cursor-pointer">
+                                <img src="@/assets/icons/accomodation/kiwi.png" alt="Kiwi.com" class="mr-4 h-8 rounded-md ">
+                                <p
+                                    class="text-center text-white text-sm sm:text-[17px] font-semibold font-[SourceSansPro]">
+                                    Kiwi.com</p>
+                            </div>
+                        </a>
+
                     </div>
                 </div>
             </div>
@@ -62,17 +83,16 @@
             <div class="w-full sm:w-1/2 px-2 h-auto font-[SourceSansPro] sm:mr-6">
                 <!-- <p class=" text-3xl">About Us</p> -->
                 <p class="text-4xl font-semibold text-center sm:text-left">Here’s how it works</p>
-                <p class="mt-4 text-center sm:text-left">When you shop or book travel through our platform, you can
-                    choose from a wide range of
-                    affiliate partners including Booking.com, Hostelworld, Viator, and many others. Our platform earns
-                    affiliate commissions from these purchases, just as any other affiliate program would. Instead of
-                    keeping these commissions, we redirect them to charities. This way, every purchase
-                    you make contributes to a cause you care about, at no extra cost to you.
+                <p class="mt-4 text-center sm:text-left">
+                    When you shop or book travel through our platform, you can choose from a wide range of affiliate partners 
+                    including Booking.com, Hostelworld, Viator, and many others. Our platform earns affiliate commissions 
+                    from these purchases, just as any other affiliate program would. Instead of keeping these commissions, 
+                    we redirect up to 90% of them to charities. The rest is used to run the website and provide a marvelous 
+                    experience. This way, every purchase you make contributes to a cause you care about, at no extra cost to you.
                 </p>
-                <p class="mt-4 text-center sm:text-left">Your routine shopping and travel bookings turn into significant
-                    contributions that help
-                    make the world a better place. Every time you book a trip or make a purchase, you're also supporting
-                    charitable initiatives effortlessly.
+                <p class="mt-4 text-center sm:text-left">Your routine shopping and travel bookings turn into significant contributions 
+                    that help make the world a better place. Every time you book a trip or make a purchase, you're also 
+                    supporting charitable initiatives effortlessly.
                 </p>
             </div>
             <div class="w-full sm:w-1/2 flex justify-center items-center pl-0 sm:pl-4 mt-8 sm:mt-0">
@@ -151,6 +171,7 @@
 <script setup lang="ts">
 import UpButton from '@/components/Navigation/upButton.vue'
 import { onMounted, ref, watch } from 'vue'
+import Meta from '@/components/metadata.vue'
 
 onMounted(() => {
     document.body.scrollTop = 0;
